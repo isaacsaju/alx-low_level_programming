@@ -1,18 +1,21 @@
 #include "main.h"
+
 /**
- * print_alphabet_x10 - a function that prints 10 times the alphabet,
- * in lowercase, followed by a new line
- **/
+ * print_alphabet_x10 - Check holberton
+ * Description: function uses _putchar function to print
+ * alphabet in lowercase 10 times
+ * Return: Nothing.
+ */
+
 void print_alphabet_x10(void)
 {
-	char latter;
-	int i;
-	for (i = 0; i < 10; i++)
+	char i;
+	int j;
+
+	for (j = 0; j < 10; j++)
 	{
-		for (latter = 'a'; latter <= 'z'; latter++)
-		{
-			_putchar(latter);
-		}
+		for (i = 'a'; i <= 'z'; i++)
+			_putchar(i);
 		_putchar('\n');
 	}
 }
