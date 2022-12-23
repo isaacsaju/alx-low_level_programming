@@ -1,22 +1,14 @@
 #include "main.h"
 
 /**
- *
- * _strncat - Funtion
- *
+ * *_strncat - a Funtion that contatnate two strings
  * @dest: Destiny
- *
  * @src: Source
- *
  * @n: Variable
- *
  * Return: Destiny
- *
- **/
+ */
 
-/**------------------Hello------World--1||1024*/
-
-char *_strncat(char *dest, char *src, int n)
+int *_strncat(char *dest, char *src, int n)
 {
 
 	int i = 0;
