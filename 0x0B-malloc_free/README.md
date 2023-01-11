@@ -77,7 +77,7 @@ Write a function that creates an array of chars, and initializes it with a speci
     Returns NULL if size = 0
     Returns a pointer to the array, or NULL if it fails
 
-julien@ubuntu:~/0x0a. malloc, free$ cat 0-main.c 
+julien@ubuntu:~/0x0a. malloc, free$ cat 0-main.c
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -130,7 +130,7 @@ int main(void)
     return (0);
 }
 julien@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-create_array.c -o a
-julien@ubuntu:~/0x0a. malloc, free$ ./a 
+julien@ubuntu:~/0x0a. malloc, free$ ./a
 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48
 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48
 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48
@@ -141,7 +141,7 @@ julien@ubuntu:~/0x0a. malloc, free$ ./a
 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48
 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48
 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48
-julien@ubuntu:~/0x0a. malloc, free$ 
+julien@ubuntu:~/0x0a. malloc, free$
 
 Repo:
 
@@ -186,9 +186,9 @@ int main(void)
     return (0);
 }
 julien@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-strdup.c -o s
-julien@ubuntu:~/0x0a. malloc, free$ ./s 
+julien@ubuntu:~/0x0a. malloc, free$ ./s
 ALX SE
-julien@ubuntu:~/0x0a. malloc, free$ 
+julien@ubuntu:~/0x0a. malloc, free$
 
 Repo:
 
@@ -233,7 +233,7 @@ int main(void)
 julien@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-str_concat.c -o c
 julien@ubuntu:~/c/curriculum_by_julien/holbertonschool-low_level_programming/0x0a. malloc, free$ ./c | cat -e
 Betty Holberton$
-julien@ubuntu:~/c/curriculum_by_julien/holbertonschool-low_level_programming/0x0a. malloc, free$ 
+julien@ubuntu:~/c/curriculum_by_julien/holbertonschool-low_level_programming/0x0a. malloc, free$
 
 Repo:
 
@@ -280,7 +280,7 @@ void print_grid(int **grid, int width, int height)
         }
         printf("\n");
         h++;
-    }   
+    }
 }
 
 /**
@@ -306,15 +306,15 @@ int main(void)
 }
 julien@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-alloc_grid.c -o g
 julien@ubuntu:~/0x0a. malloc, free$ ./g
-0 0 0 0 0 0 
-0 0 0 0 0 0 
-0 0 0 0 0 0 
-0 0 0 0 0 0 
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
 
-0 0 0 98 0 0 
-0 0 0 0 0 0 
-0 0 0 0 0 0 
-0 0 0 0 402 0 
+0 0 0 98 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 402 0
 julien@ubuntu:~/0x0a. malloc, free$
 
 Repo:
@@ -360,7 +360,7 @@ void print_grid(int **grid, int width, int height)
         }
         printf("\n");
         h++;
-    }   
+    }
 }
 
 /**
@@ -391,26 +391,26 @@ julien@ubuntu:~/0x0a. malloc, free$ valgrind ./f
 ==5013== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
 ==5013== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
 ==5013== Command: ./f
-==5013== 
-0 0 0 0 0 0 
-0 0 0 0 0 0 
-0 0 0 0 0 0 
-0 0 0 0 0 0 
+==5013==
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
 
-0 0 0 98 0 0 
-0 0 0 0 0 0 
-0 0 0 0 0 0 
-0 0 0 0 402 0 
-==5013== 
+0 0 0 98 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 402 0
+==5013==
 ==5013== HEAP SUMMARY:
 ==5013==     in use at exit: 0 bytes in 0 blocks
 ==5013==   total heap usage: 6 allocs, 6 frees, 1,248 bytes allocated
-==5013== 
+==5013==
 ==5013== All heap blocks were freed -- no leaks are possible
-==5013== 
+==5013==
 ==5013== For counts of detected and suppressed errors, rerun with: -v
 ==5013== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
-julien@ubuntu:~/0x0a. malloc, free$ 
+julien@ubuntu:~/0x0a. malloc, free$
 
 Repo:
 
